@@ -24,8 +24,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x1307
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    ZSA Technology Labs Inc
-#define PRODUCT         ErgoDox EZ
+#define MANUFACTURER    Yichen Cao
+#define PRODUCT         ErgoDox
+#define DESCRIPTION     ErgoDox by @schemetrical
 
 /* key matrix size */
 #define MATRIX_ROWS 14
@@ -76,6 +77,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_HUE_STEP 12
 #define RGBLIGHT_SAT_STEP 255
 #define RGBLIGHT_VAL_STEP 12
+#define RGBLIGHT_SLEEP
 
 // Pick one of the modes
 // Defaults to 15 mirror, for legacy behavior
